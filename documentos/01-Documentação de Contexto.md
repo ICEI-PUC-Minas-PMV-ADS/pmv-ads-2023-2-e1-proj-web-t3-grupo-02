@@ -1,35 +1,43 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+ Uma hamburgueria, em busca de expansão e crescimento em suas vendas, reconheceu a necessidade de uma solução digital que facilitasse as transações e melhorasse sua visibilidade no mercado. Compreendendo a importância de um site eficaz para atingir esses objetivos, a hamburgueria se deparou com o desafio de criar uma plataforma online que oferecesse uma experiência de compra simplificada e atraente aos clientes.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+ Em muitos restaurantes, especialmente aqueles que oferecem hambúrgueres personalizáveis, a comunicação entre os clientes e a equipe de cozinha muitas vezes se torna complicada. O processo de montagem de hambúrgueres envolve os clientes enviando uma lista de ingredientes por meio de mensagens de WhatsApp ou outros canais de comunicação. Isso pode resultar em:
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Confusão e Erros: A troca de mensagens pode levar a mal-entendidos, resultando em pedidos incorretos ou incompletos.
+
+-Tempo Desperdiçado: O processo manual de troca de mensagens é demorado, tanto para os clientes quanto para a equipe do restaurante.
+
+-Falta de Padronização: A ausência de uma plataforma unificada pode levar à falta de padronização na montagem de pedidos.
+
+-Experiência do Cliente Insatisfatória: A complexidade da comunicação pode afetar negativamente a experiência do cliente, levando à frustração.
+
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+ Nossa solução consiste na criação de uma página web dedicada à montagem de hambúrgueres, projetada para solucionar os desafios enfrentados por restaurantes que atualmente dependem de processos de comunicação complicados. Através deste aplicativo da web, oferecemos um conjunto abrangente de soluções:
+
+-Interface Intuitiva: Desenvolvemos uma interface amigável que permite aos clientes escolherem seus ingredientes com facilidade. Isso reduz significativamente a probabilidade de erros na montagem de hambúrgueres, proporcionando uma experiência de pedido mais fluida e precisa.
+
+-Pedidos Precisos: Nosso aplicativo elimina mal-entendidos frequentes, garantindo que os pedidos sejam detalhados e completos, evitando equívocos na hora da preparação.
+
+-Eficiência: Automatizamos o processo de montagem de hambúrgueres, otimizando o tempo necessário para finalizar um pedido. Isso resulta em maior eficiência operacional para o restaurante.
+
+-Padronização: Oferecemos a capacidade de estabelecer padrões de montagem, assegurando que cada hambúrguer seja preparado de acordo com as especificações do cliente, proporcionando consistência em todos os pedidos.
+
+-Experiência Aprimorada: Nosso aplicativo proporciona uma experiência de pedido personalizada e simplificada, centrada na melhoria da satisfação do cliente.
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+ Optamos por abordar este problema devido à crescente demanda por soluções digitais no setor de alimentos, que aumentam a eficiência operacional e melhoram a satisfação do cliente. Dados internos da hamburgueria destacaram erros na montagem de pedidos como uma fonte de insatisfação. Além disso, observamos a necessidade de manter a competitividade no mercado. A pesquisa também indicou que os consumidores valorizam experiências de compra personalizadas e comodidade. Portanto, nossa página web visa aprimorar a eficiência, reduzir erros e atender às expectativas dos clientes, tornando-se uma solução estratégica para a hamburgueria.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+ Os clientes da hamburgueria são os principais usuários do aplicativo. Podem variar em idade, gênero e experiência tecnológica, mas compartilham o interesse em personalizar seus pedidos de hambúrguer de acordo com suas preferências.
+Os membros da equipe de cozinha serão impactados diretamente pelo aplicativo, já que receberão pedidos mais precisos e detalhados. Eles devem estar familiarizados com o uso da tecnologia para gerenciar os pedidos.
+O gerente do restaurante. Responsáveis por supervisionar a operação e gerenciar o estoque de ingredientes, os gerentes usam o aplicativo para monitorar o desempenho e ajustar os padrões de montagem, exigindo um conhecimento mais aprofundado da plataforma.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 
