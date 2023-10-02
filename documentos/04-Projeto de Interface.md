@@ -2,34 +2,25 @@
 # Projeto de Interface
 
 ## User Flow
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
-## Protótipo
-
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+No fluxograma abaixo, é possível visualizar como o usuário interage de forma interativa com o sistema.
+<img width="575" alt="Captura de tela 2023-10-01 214925" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/b4a038bf-914c-4506-8686-7e56f0810be2">
 
 ### Protótipo de baixa fidelidade
+TELA - HOME PAGE
+A tela inicial apresenta os diferentes tipos de hambúrgueres, informações de endereço, links para as redes sociais e um menu para efetuar pedidos.
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+![PUC_1-1_page-0001](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/d32ac675-0c4c-4c00-bec4-6dc921b3d959)
+Figura 1
+TELA - SELACIONAR INGREDIENTES
+A tela de seleção de ingredientes, apresenta todos os ingredientes disponíveis, as bebidas e um menu para selecionar o endereço.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+![PUC_2-2_page-0001](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/10fade5c-3fdf-4f86-88d2-1e5084079f83)
+Figura 2
+TELA - SELECIONAR ENDEREÇO
+A tela de selecionar endreço apresenta os campos no qual o usuario irá colocar o seu nome e o seu endereço para a realização da entrega.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+![PUC_3-end_page-0001](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/ee116aa2-f3a9-483f-878c-ca439e4ddc67)
+O projeto foi elabora pela ferraenta Figma, para mais detalhes pode-se acessar o link abaixo.
 
 
 
