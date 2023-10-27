@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       dobrar_proteina: [],
       pao: [],
       queijo: [],
-      acrescentar_queijo: [],
+      queijo_extra: [],
       complemento: [],
       salada: [],
       molho: [],
@@ -47,21 +47,29 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function criarResumo(options) {
+    const {
+      proteina,
+      ponto,
+      pao,
+      queijo,
+      queijo_extra,
+      complemento,
+      salada,
+      molho_extra,
+    } = options;
+    const createTableRow = (label, value) => `<tr><th>${label}</th><td>${value}</td></tr>`;
+  
     let summary = "";
-    summary +=
-      "<tr><th>Proteína</th><td>" + options.proteina.join(", ") + "</td></tr>";
-    summary += "<tr><th>Ponto da Carne</th><td>" + options.ponto + "</td></tr>";
-    summary += "<tr><th>Pão</th><td>" + options.pao + "</td></tr>";
-    summary += "<tr><th>Queijo</th><td>" + options.queijo + "</td></tr>";
-    summary +=
-      "<tr><th>Outros complementos</th><td>" +
-      options.complemento.join(", ") +
-      "</td></tr>";
-    summary +=
-      "<tr><th>Salada</th><td>" + options.salada.join(", ") + "</td></tr>";
-    summary +=
-      "<tr><th>Molho Extra</th><td>" + options.molho_extra + "</td></tr>";
-
+    summary += createTableRow("Proteína", proteina.join(", "));
+    summary += createTableRow("Ponto da Carne", ponto);
+    summary += createTableRow("Pão", pao);
+    summary += createTableRow("Queijo", queijo);
+    summary += createTableRow("Queijo Extra", queijo_extra);
+    summary += createTableRow("Outros complementos", complemento.join(", "));
+    summary += createTableRow("Salada", salada.join(", "));
+    summary += createTableRow("Molho Extra", molho_extra);
+  
     return summary;
   }
+  
 });
