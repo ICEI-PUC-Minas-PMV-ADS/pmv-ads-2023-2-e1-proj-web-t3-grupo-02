@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('burgerForm');
-  const resumoBurger = document.getElementById('resumoBurger');
-  const copiarResumo = document.getElementById('copiarResumo');
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("burgerForm");
+  const resumoBurger = document.getElementById("resumoBurger");
+  const copiarResumo = document.getElementById("copiarResumo");
 
-  form.addEventListener('submit', function (e) {
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     const selectedOptions = {
@@ -31,30 +31,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     const summary = criarResumo(selectedOptions);
-    const resumoTable = resumoBurger.querySelector('tbody');
+    const resumoTable = resumoBurger.querySelector("tbody");
     resumoTable.innerHTML = summary;
-    resumoBurger.style.display = 'block';
+    resumoBurger.style.display = "block";
   });
 
-  copiarResumo.addEventListener('click', function () {
-    const resumoTable = resumoBurger.querySelector('table');
+  copiarResumo.addEventListener("click", function () {
+    const resumoTable = resumoBurger.querySelector("table");
     const range = document.createRange();
     range.selectNode(resumoTable);
     window.getSelection().removeAllRanges();
     window.getSelection().addRange(range);
-    document.execCommand('copy');
+    document.execCommand("copy");
     window.getSelection().removeAllRanges();
   });
 
   function criarResumo(options) {
-    let summary = '';
-    summary += '<tr><th>Proteína</th><td>' + options.proteina.join(', ') + '</td></tr>';
-    summary += '<tr><th>Ponto da Carne</th><td>' + options.ponto + '</td></tr>';
-    summary += '<tr><th>Pão</th><td>' + options.pao + '</td></tr>';
-    summary += '<tr><th>Queijo</th><td>' + options.queijo + '</td></tr>';
-    summary += '<tr><th>Outros complementos</th><td>' + options.complemento.join(', ') + '</td></tr>';
-    summary += '<tr><th>Salada</th><td>' + options.salada.join(', ') + '</td></tr>';
-    summary += '<tr><th>Molho Extra</th><td>' + options.molho_extra + '</td></tr>';
+    let summary = "";
+    summary +=
+      "<tr><th>Proteína</th><td>" + options.proteina.join(", ") + "</td></tr>";
+    summary += "<tr><th>Ponto da Carne</th><td>" + options.ponto + "</td></tr>";
+    summary += "<tr><th>Pão</th><td>" + options.pao + "</td></tr>";
+    summary += "<tr><th>Queijo</th><td>" + options.queijo + "</td></tr>";
+    summary +=
+      "<tr><th>Outros complementos</th><td>" +
+      options.complemento.join(", ") +
+      "</td></tr>";
+    summary +=
+      "<tr><th>Salada</th><td>" + options.salada.join(", ") + "</td></tr>";
+    summary +=
+      "<tr><th>Molho Extra</th><td>" + options.molho_extra + "</td></tr>";
 
     return summary;
   }
