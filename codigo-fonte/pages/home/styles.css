@@ -1,0 +1,84 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #e54631;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Estilo para a barra de navegação */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+/* Estilize os links de navegação como desejar */
+nav ul li a {
+  text-decoration: none;
+  color: #01a8dd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Estilize os links de navegação quando hover (passar o mouse sobre eles) */
+nav ul li a:hover {
+  color: #ff5001;
+}
+
+/* Estilize o formulário */
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para os rótulos e inputs */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilize o botão de envio */
+input[type="submit"] {
+  background-color: #ff5001;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilize o botão de envio quando hover (passar o mouse sobre ele) */
+input[type="submit"]:hover {
+  background-color: #01a8dd;
+}
+.logo{
+  width: 150px;
+}
