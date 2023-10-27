@@ -1,7 +1,7 @@
 /* Estilo para o corpo da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #00a8dd;
   margin: 0;
   padding: 0;
 }
@@ -42,7 +42,7 @@ nav ul li a {
 
 /* Estilize os links de navegação quando hover (passar o mouse sobre eles) */
 nav ul li a:hover {
-  color: #ff5001;
+  color: #0c0483;
 }
 
 /* Estilize o formulário */
