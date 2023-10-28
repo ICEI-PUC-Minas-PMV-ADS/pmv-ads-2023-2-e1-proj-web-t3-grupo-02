@@ -1,3 +1,5 @@
+/* Colocar fontes semelhantes as da interfaces */
+
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@ body {
     border: 2px solid #000;
     border-radius: 15px;
     padding: 20px;
-    margin-top: -300px;
+    margin-top: -10px;
 }
 
 .content {
@@ -29,9 +31,24 @@ body {
     align-items: flex-start;
 }
 
+/* 
+Colocar os títulos das seções do lado esquerdo por cima das seções
 h1 {
     font-size: 24px;
     margin: 10px;
+    text-align: left;
+} */
+
+.header {
+    position: top;
+    top: 0;
+    width: 100%;
+    background-color: #e14333;
+    padding: 20px;
+    margin-bottom: 100px;
+    z-index: 500;
+    display: flex;
+    flex-direction: row;
 }
 
 .red-button {
@@ -47,17 +64,6 @@ h1 {
     font-size: 24px;
 }
 
-.header {
-    position: top;
-    top: 0;
-    width: 100%;
-    background-color: #e14333;
-    padding: 20px;
-    z-index: 500;
-    display: flex;
-    flex-direction: row;
-}
-
 .social-media {
     padding-left: 80vw;
     margin-left: 15px;
@@ -66,4 +72,25 @@ h1 {
 .social-media>img {
     width: 30px;
     height: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card>p {
+    text-align: center;
+}
+
+.card>img {
+    width: 290px;
+    height: 240px;
 }
