@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #e54631;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #01a8dd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #0c0483;
+}
+
+.logo {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.double-input-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.double-input-row .input-text {
+  width: 50%;
+}
+
+.triple-input-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.input-text {
+  font-size: 20px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background-color: rgba(218, 218, 218, 0.4);
+  padding: 12px 24px;
+}
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: black;
+}
+
+#endereço-input {
+  width: 60%;
+}
+#numero-input {
+  width: 20%;
+}
+#apto-input {
+  width: 20%;
+}
+
+.button-div {
+  display: flex;
+  justify-content: end;
+}
+
+.finalizar-button {
+  font-family: inherit;
+  border-radius: 15px;
+  border: none;
+  background: #e54631;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 0;
+  width: 40%;
+  cursor: pointer;
+}
+
+.finalizar-button:hover {
+  background-image: linear-gradient(rgb(0 0 0/25%) 0 0);
+}
