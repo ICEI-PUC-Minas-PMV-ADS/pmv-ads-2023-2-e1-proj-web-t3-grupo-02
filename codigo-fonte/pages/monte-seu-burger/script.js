@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("burgerForm");
-  const resumoBurger = document.getElementById("resumoBurger");
-  const copiarResumo = document.getElementById("copiarResumo");
+  const summaryBurger = document.getElementById("resumoBurger");
+  const copySummary = document.getElementById("copiarResumo");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     const selectedOptions = {
-      proteina: [],
+      carne: [],
       ponto: [],
-      dobrar_proteina: [],
+      carne_extra: [],
       pao: [],
       queijo: [],
       queijo_extra: [],
@@ -30,43 +30,47 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    const summary = criarResumo(selectedOptions);
-    const resumoTable = resumoBurger.querySelector("tbody");
-    resumoTable.innerHTML = summary;
-    resumoBurger.style.display = "block";
+    const summary = createSummary(selectedOptions);
+    const summaryTable = summaryBurger.querySelector("tbody");
+    summaryTable.innerHTML = summary;
+    summaryBurger.style.display = "block";
   });
 
-  copiarResumo.addEventListener("click", function () {
-    const resumoTable = resumoBurger.querySelector("table");
+  copySummary.addEventListener("click", function () {
+    const summaryTable = summaryBurger.querySelector("table");
     const range = document.createRange();
-    range.selectNode(resumoTable);
+    range.selectNode(summaryTable);
     window.getSelection().removeAllRanges();
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
   });
 
-  function criarResumo(options) {
+  function createSummary(options) {
     const {
-      proteina,
+      carne,
+      carne_extra,
       ponto,
       pao,
       queijo,
       queijo_extra,
       complemento,
       salada,
+      molho,
       molho_extra,
     } = options;
     const createTableRow = (label, value) => `<tr><th>${label}</th><td>${value}</td></tr>`;
   
     let summary = "";
-    summary += createTableRow("Proteína", proteina.join(", "));
+    summary += createTableRow("Carne", carne.join(", "));
+    summary += createTableRow("Carne Extra", carne_extra.join(", "));
     summary += createTableRow("Ponto da Carne", ponto);
     summary += createTableRow("Pão", pao);
     summary += createTableRow("Queijo", queijo);
     summary += createTableRow("Queijo Extra", queijo_extra);
     summary += createTableRow("Outros complementos", complemento.join(", "));
     summary += createTableRow("Salada", salada.join(", "));
+    summary += createTableRow("Molho", molho.join(", "));
     summary += createTableRow("Molho Extra", molho_extra);
   
     return summary;
