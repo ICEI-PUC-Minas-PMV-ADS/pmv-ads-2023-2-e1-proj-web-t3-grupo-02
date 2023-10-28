@@ -23,40 +23,45 @@
         </ul>
       </nav>
     </header>
-    <form id="burgerForm">
-      <h2>MONTE SEU BURGER 🍔😋</h2>
-      <h3>Escolha sua carne (1 opção):</h3>
-      <label>
-        <input type="radio" name="carne" value="Picanha 120g" /> Picanha 120g
-        - R$ 22,00 </label
-      ><br />
-      <label>
-        <input type="radio" name="carne" value="Angus 120g" /> Angus 120g -
-        R$ 22,00 </label
-      ><br />
-      <label>
-        <input type="radio" name="carne" value="Filé de Frango 120g" /> Filé
-        de Frango 120g - R$ 18,00 </label
-      ><br />
-      <label>
-        <input type="radio" name="carne" value="Costela 150g" /> Costela 150g
-        - R$ 25,00 </label
-      ><br />
-      <label>
-        <input type="radio" name="carne" value="Vegetariano* 115g" />
-        Vegetariano* 115g - R$ 25,00 </label
-      ><br />
-      <label>
-        <input type="radio" name="carne" value="Flinki's** 150g" />
-        Flinki's** 150g - R$ 25,00 </label
-      ><br />
-      <h3>Ponto da Carne:</h3>
-      <label>
-        <input type="radio" name="ponto" value="Ao Ponto" /> Ao Ponto </label
-      ><br />
-      <label>
-        <input type="radio" name="ponto" value="Bem Passado" /> Bem Passado </label
-      ><br />
+    <form id="burgerForm" class="container">
+      <h2 class="text-center">MONTE SEU BURGER 🍔😋</h2>
+      <div class="mb-3">
+        <h3>Escolha sua carne (1 opção):</h3>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Picanha 120g" id="carnePicanha" />
+          <label class="form-check-label" for="carnePicanha">Picanha 120g - R$ 22,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Angus 120g" id="carneAngus" />
+          <label class="form-check-label" for="carneAngus">Angus 120g - R$ 22,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Filé de Frango 120g" id="carneFrango" />
+          <label class="form-check-label" for="carneFrango">Filé de Frango 120g - R$ 18,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Costela 150g" id="carneCostela" />
+          <label class="form-check-label" for="carneCostela">Costela 150g - R$ 25,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Vegetariano 115g" id="carneVegetariano" />
+          <label class="form-check-label" for="carneVegetariano">Vegetariano* 115g - R$ 25,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Flinki's Blend 150g" id="carneFlinkis" />
+          <label class="form-check-label" for="carneFlinkis">Flinki's Blend 150g - R$ 25,00</label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h3>Ponto da Carne:</h3>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ponto" value="Ao Ponto" id="pontoAoPonto" />
+          <label class="form-check-label" for="pontoAoPonto">Ao Ponto</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ponto" value="Bem Passado" id="pontoBemPassado" />
+          <label class="form-check-label" for="pontoBemPassado">Bem Passado</label>
+      </div>
       <h3>Gostaria de carne extra?</h3>
       <label>
         <input type="checkbox" name="carne_extra" value="Picanha 120g" />
