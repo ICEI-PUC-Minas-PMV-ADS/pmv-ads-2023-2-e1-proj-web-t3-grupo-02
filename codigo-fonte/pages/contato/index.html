@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="flinks-logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="/home">FAÇA SEU PEDIDO</a></li>
+          <li><a href="/monte-seu-hamburger">MONTE SEU HAMBURGUER</a></li>
+          <li><a href="/quem-somos">QUEM SOMOS</a></li>
+          <li><a href="/contato">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="title">ENDEREÇO PARA ENTREGA</h1>
+      <form class="form">
+        <div class="double-input-row">
+          <input
+            class="input-text"
+            type="text"
+            placeholder="Nome"
+            name="nome"
+            required
+          />
+          <input
+            class="input-text"
+            type="text"
+            placeholder="Sobrenome"
+            name="sobrenome"
+            required
+          />
+        </div>
+        <div class="triple-input-row">
+          <input
+            id="endereço-input"
+            class="input-text"
+            type="text"
+            placeholder="Endereço"
+            name="endereco"
+            required
+          />
+          <input
+            id="numero-input"
+            class="input-text"
+            type="text"
+            placeholder="Número"
+            name="numero"
+            required
+          />
+          <input
+            id="apto-input"
+            class="input-text"
+            type="text"
+            placeholder="Apto"
+            name="apto"
+            required
+          />
+        </div>
+        <div class="double-input-row">
+          <input
+            class="input-text"
+            type="text"
+            placeholder="Bairro"
+            name="bairro"
+            required
+          />
+          <input
+            class="input-text"
+            type="text"
+            placeholder="Ponto de referência"
+            name="referencia"
+            required
+          />
+        </div>
+        <div class="button-div">
+          <button class="finalizar-button" type="submit">
+            finalizar pedido
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
