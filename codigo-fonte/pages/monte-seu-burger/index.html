@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../../images/flinks-logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="/home">FAÇA SEU PEDIDO</a></li>
+          <li><a href="/monte-seu-hamburger">MONTE SEU HAMBURGUER</a></li>
+          <li><a href="/quem-somos">QUEM SOMOS</a></li>
+          <li><a href="/contato">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form id="burgerForm" class="container">
+      <h2 class="text-center">MONTE SEU BURGER 🍔😋</h2>
+      <div class="mb-3">
+        <h3>Escolha sua carne (1 opção):</h3>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Picanha 120g" id="carnePicanha" />
+          <label class="form-check-label" for="carnePicanha">Picanha 120g - R$ 22,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Angus 120g" id="carneAngus" />
+          <label class="form-check-label" for="carneAngus">Angus 120g - R$ 22,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Filé de Frango 120g" id="carneFrango" />
+          <label class="form-check-label" for="carneFrango">Filé de Frango 120g - R$ 18,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Costela 150g" id="carneCostela" />
+          <label class="form-check-label" for="carneCostela">Costela 150g - R$ 25,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Vegetariano 115g" id="carneVegetariano" />
+          <label class="form-check-label" for="carneVegetariano">Vegetariano* 115g - R$ 25,00</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="carne" value="Flinki's Blend 150g" id="carneFlinkis" />
+          <label class="form-check-label" for="carneFlinkis">Flinki's Blend 150g - R$ 25,00</label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h3>Ponto da Carne:</h3>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ponto" value="Ao Ponto" id="pontoAoPonto" />
+          <label class="form-check-label" for="pontoAoPonto">Ao Ponto</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="ponto" value="Bem Passado" id="pontoBemPassado" />
+          <label class="form-check-label" for="pontoBemPassado">Bem Passado</label>
+      </div>
+      <h3>Gostaria de carne extra?</h3>
+      <label>
+        <input type="checkbox" name="carne_extra" value="Picanha 120g" />
+        Picanha 120g - R$ 7,00 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="carne_extra" value="Angus 120g" />
+        Angus 120g - R$ 7,00 </label
+      ><br />
+      <label>
+        <input
+          type="checkbox"
+          name="carne_extra"
+          value="Filé de Frango 120g"
+        />
+        Filé de Frango 120g - R$ 3,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="carne_extra" value="Costela 150g" />
+        Costela 150g - R$ 8,50 </label
+      ><br />
+      <label>
+        <input
+          type="checkbox"
+          name="carne_extra"
+          value="Vegetariano* 115g"
+        />
+        Vegetariano* 115g - R$ 8,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="carne_extra" value="Flinki's** 150g" />
+        Flinki's** 150g - R$ 8,50 </label
+      ><br />
+
+      <h3>Escolha o seu pão (1 opção):</h3>
+      <label> <input type="radio" name="pao" value="Brioche" /> Brioche </label
+      ><br />
+      <label>
+        <input type="radio" name="pao" value="Australiano" />
+        Australiano </label
+      ><br />
+      <label>
+        <input type="radio" name="pao" value="Parmesão" /> Parmesão </label
+      ><br />
+
+      <h3>Escolha dos Queijos (1 opção):</h3>
+      <label> <input type="radio" name="queijo" value="Prato" /> Prato </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Mussarela" /> Mussarela </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Cheddar" /> Cheddar </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Cheddar cremoso" /> Cheddar
+        cremoso </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Requeijão Cremoso" /> Requeijão
+        Cremoso </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Cream Cheese" /> Cream Cheese </label
+      ><br />
+      <label>
+        <input type="radio" name="queijo" value="Sem Queijo" /> Sem Queijo </label
+      ><br />
+
+      <h3>Deseja acrescentar queijo por R$ 2,00 cada?</h3>
+      <label>
+        <input type="checkbox" name="queijo_extra" value="Prato" />
+        Prato </label
+      ><br />
+      <label>
+        <input type="checkbox" name="queijo_extra" value="Mussarela" />
+        Mussarela </label
+      ><br />
+      <label>
+        <input type="checkbox" name="queijo_extra" value="Cheddar" />
+        Cheddar </label
+      ><br />
+      <label>
+        <input
+          type="checkbox"
+          name="queijo_extra"
+          value="Cheddar cremoso"
+        />
+        Cheddar cremoso </label
+      ><br />
+      <label>
+        <input
+          type="checkbox"
+          name="queijo_extra"
+          value="Requeijão Cremoso"
+        />
+        Requeijão Cremoso </label
+      ><br />
+      <label>
+        <input type="checkbox" name="acrescentar_queijo" value="Cream Cheese" />
+        Cream Cheese </label
+      ><br />
+
+      <h3>Deseja acrescentar algum complemento?</h3>
+      <label>
+        <input type="checkbox" name="complemento" value="Bacon Fatiado" /> Bacon
+        Fatiado - R$ 2,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Onion Rings" /> Onion
+        Rings - R$ 3,00 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Cebola Caramelizada" />
+        Cebola Caramelizada - R$ 2,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Geléia de Pimenta" />
+        Geléia de Pimenta - R$ 1,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Geléia de Bacon" />
+        Geléia de Bacon - R$ 1,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Farofa de Bacon" />
+        Farofa de Bacon - R$ 1,50 </label
+      ><br />
+      <label>
+        <input type="checkbox" name="complemento" value="Ovo" /> Ovo - R$ 2,00 </label
+      ><br />
+
+      <h3>Salada à vontade:</h3>
+      <label>
+        <input type="checkbox" name="salada" value="Alface Americana" /> Alface
+        Americana </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Rúcula" /> Rúcula </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Tomate" /> Tomate </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Cebola Roxa" /> Cebola Roxa </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Picles" /> Picles </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Pepino" /> Pepino </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Pimenta Jalapeño" /> Pimenta
+        Jalapeño </label
+      ><br />
+      <label>
+        <input type="checkbox" name="salada" value="Sem Salada" /> Sem Salada </label
+      ><br />
+
+      <h3>Para finalizar, os Molhos (1 opção):</h3>
+      <label>
+        <input type="radio" name="molho" value="Gorgonzola" />
+        Gorgonzola </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Parmesão" /> Parmesão </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Mostarda e Mel" /> Mostarda e
+        Mel </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Maionese" /> Maionese </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Ketchup" /> Ketchup </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Baconese" /> Baconese </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Mostarda" /> Mostarda </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Maionese Defumada" /> Maionese
+        Defumada </label
+      ><br />
+      <label>
+        <input
+          type="radio"
+          name="molho"
+          value="Pimenta Verde com Chimichurri"
+        />
+        Pimenta Verde com Chimichurri </label
+      ><br />
+      <label>
+        <input type="radio" name="molho" value="Sem Molho" /> Sem Molho </label
+      ><br />
+
+      <h3>
+        Gostaria de acrescentar mais molhos por R$ 2,00 cada? (A parte 30g)
+      </h3>
+      <label>
+        <input type="checkbox" name="molho_extra" value="Gorgonzola" />
+        Gorgonzola </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Parmesão" />
+        Parmesão </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Mostarda e Mel" />
+        Mostarda e Mel </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Maionese" />
+        Maionese </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Ketchup" />
+        Ketchup </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Baconese" />
+        Baconese </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Mostarda" />
+        Mostarda </label
+      ><br />
+      <label>
+        <input type="checkbox" name="molho_extra" value="Maionese Defumada" />
+        Maionese Defumada </label
+      ><br />
+      <label>
+        <input
+          type="checkbox"
+          name="molho_extra"
+          value="Pimenta Verde com Chimichurri"
+        />
+        Pimenta Verde com Chimichurri </label
+      ><br />
+      <input type="submit" value="Fazer Pedido" />
+    </form>
+    <div id="resumoBurger" class="card" style="display: none">
+      <div class="card-body">
+        <h5 class="card-title">Resumo do Hamburger</h5>
+        <table class="table">
+          <tbody>
+            <!-- Conteúdo do resumo será preenchido aqui -->
+          </tbody>
+        </table>
+        <button id="copiarResumo" class="btn btn-primary">Copiar Resumo</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
