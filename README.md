@@ -1,10 +1,10 @@
-# Cardápio Digital Flink's Burger
+# Título do Projeto
 
-`Análise e Desenvolvimento de Sistemas`
+`CURSO`
 
-`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 03`
+`DISCIPLINA`
 
-`02/2023`
+`SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
