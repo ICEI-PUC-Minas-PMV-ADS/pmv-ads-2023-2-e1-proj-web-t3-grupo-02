@@ -1,5 +1,3 @@
-/* Colocar fontes semelhantes as da interfaces */
-
 body {
     margin: 0;
     padding: 0;
@@ -29,15 +27,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 40%;
 }
 
-/* 
+
 Colocar os títulos das seções do lado esquerdo por cima das seções
 h1 {
     font-size: 24px;
     margin: 10px;
     text-align: left;
-} */
+}
 
 .header {
     position: top;
@@ -52,16 +51,17 @@ h1 {
 }
 
 .red-button {
-    background-color: red;
+    background-color: #e14333;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    margin: 20px;
+    padding: 10px 10px;
+    margin: 10px;
     cursor: pointer;
     border-radius: 5px;
-    width: 30vw;
+    width: 20vw;
     height: 50px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .social-media {
@@ -88,9 +88,32 @@ section {
 
 .card>p {
     text-align: center;
+    font-size: 25px;
+    line-height: 0.5;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
 
 .card>img {
     width: 290px;
     height: 240px;
+}
+
+.gurana {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.gurana>img {
+    width: 175px;
+    height: 240px;
+}
+
+.gurana>p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 0.5;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
