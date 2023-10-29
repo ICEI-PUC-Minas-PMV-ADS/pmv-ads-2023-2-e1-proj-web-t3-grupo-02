@@ -9,6 +9,7 @@ body {
     background-color: #f0f0f0;
 }
 
+
 .container {
     width: 70%;
     border: 2px solid #000;
@@ -36,18 +37,6 @@ h1 {
     font-size: 24px;
     margin: 10px;
     text-align: left;
-}
-
-.header {
-    position: top;
-    top: 0;
-    width: 100%;
-    background-color: #e14333;
-    padding: 20px;
-    margin-bottom: 100px;
-    z-index: 500;
-    display: flex;
-    flex-direction: row;
 }
 
 .red-button {
