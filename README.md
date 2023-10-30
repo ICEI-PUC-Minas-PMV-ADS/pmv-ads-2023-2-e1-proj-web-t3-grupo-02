@@ -46,9 +46,11 @@ Home Responsável: Luiz Hovadich e João Gabriel
 
 codigo-fonte/pages/home/index.html
 codigo-fonte/pages/home/index.css
+
 Monte seu burger Responsável: Guilherme Patrick
 
 codigo-fonte/pages/monte-seu-burger/index.html 
+
 Contato Responsável: Caio Lelis e Douglas Rodrigues
 
 codigo-fonte/pages/contato/index.html
