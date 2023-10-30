@@ -6,7 +6,7 @@
 
 `02/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O projeto em desenvolvimento é um cardápio digital para uma hamburgueria, criado utilizando HTML, CSS e JavaScript sem o uso de frameworks. Este cardápio oferece aos clientes duas principais funcionalidades: a primeira permite que eles escolham entre opções padrão de hambúrgueres pré-montados. A segunda funcionalidade permite que os clientes personalizem seus hambúrgueres, semelhante ao estilo Subway, selecionando os ingredientes de sua preferência. Além disso, o cardápio digital também oferece a capacidade de fazer pedidos online, tornando a experiência de escolha e compra de hambúrgueres conveniente e interativa para os clientes.
 
 ## Integrantes
 
