@@ -2,11 +2,33 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-[Apresente a estrutura padrão da sua aplicação.]
+Temos por padrão o menu de navegação com as seguintes informações:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+background-color: #e54631
+
+color: #fff
+
+text-align: center
+
+padding: 10px 0
+
+<h3><b>Pagina Home</b></h3>
+<p>Nesta tela temos a pagina home onde temos como um ponto de partida para a montagem do hambuguer.</p>
+
+![Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/6236c586-271c-4879-a468-bebb698b7475)
+![Home2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/cd644a20-33c3-447f-9bfd-024c8d6aaa3b)
+
+
+<h3><b>Tela de montagem do Hamburguer</b></h3>
+<p>Temos as opções para realizar a montagem de acordo com a vontade do consumidor.</p> 
+  
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/61812ce8-e411-43a1-afda-685012405de0) 
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/c6f7edd5-449f-4236-a71c-59e8260f9455)
+
+
+<h3><b>Tela de Contato</b></h3>
+<p>Esta tela é para o preenchimento com a informação para a entrega.</p>
+
+![Tela de contato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/ad344577-fb74-4b5c-9caa-8ad3dd7d78ae)
+
+
