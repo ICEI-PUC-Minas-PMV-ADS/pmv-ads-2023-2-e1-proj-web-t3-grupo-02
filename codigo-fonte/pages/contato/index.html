@@ -1,87 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header>
-      <img class="logo" src="../../images/flinks-logo.png" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="../home//index.html">HOME</a></li>
-          <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO</a></li>
-          <li><a href="./index.html">CONTATO</a></li>          
-        </ul>
-      </nav>
-    </header>
-    <main class="container">
-      <h1 class="title">ENDEREÇO PARA ENTREGA</h1>
-      <form class="form">
-        <div class="double-input-row">
-          <input
-            class="input-text"
-            type="text"
-            placeholder="Nome"
-            name="nome"
-            required
-          />
-          <input
-            class="input-text"
-            type="text"
-            placeholder="Sobrenome"
-            name="sobrenome"
-            required
-          />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Flink's Burguer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../monte-seu-burger/styles.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="../../images/flinks-logo.png" alt="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO</a></li>
+        <li><a href="../contato/index.html">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>  
+    <div class="contact-card">
+        <h2>Flink's Burguer</h2>
+
+        <div class="contact-info">
+            <p>
+                <strong>Whatsapp:</strong>
+                <img src="whatsapp_logo.png" alt="Whatsapp Logo" width="auto" height="20"> (31) 98523-0304
+            </p>
+            <p>
+                <strong>Atendimento:</strong> Terça a Domingo<br>
+                <strong>Horário:</strong> 18h às 00h00
+            </p>
+            <p>
+                <strong>Endereço:</strong><br>
+                Rua do Cercado 245, Venda Nova<br>
+                CEP: 31510-405
+            </p>
         </div>
-        <div class="triple-input-row">
-          <input
-            id="endereço-input"
-            class="input-text"
-            type="text"
-            placeholder="Endereço"
-            name="endereco"
-            required
-          />
-          <input
-            id="numero-input"
-            class="input-text"
-            type="text"
-            placeholder="Número"
-            name="numero"
-            required
-          />
-          <input
-            id="apto-input"
-            class="input-text"
-            type="text"
-            placeholder="Apto"
-            name="apto"
-            required
-          />
+
+        <div class="map-container">
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.553768497368!2d-43.96457892405612!3d-19.816508481546613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68fe832e047c3%3A0x19d6eb690725c424!2sR.%20do%20Cercado%2C%20245%20-%20Venda%20Nova%2C%20Belo%20Horizonte%20-%20MG%2C%2031510-410!5e0!3m2!1spt-BR!2sbr!4v1700855893593!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="double-input-row">
-          <input
-            class="input-text"
-            type="text"
-            placeholder="Bairro"
-            name="bairro"
-            required
-          />
-          <input
-            class="input-text"
-            type="text"
-            placeholder="Ponto de referência"
-            name="referencia"
-            required
-          />
-        </div>
-        <div class="button-div">
-          <button class="finalizar-button" type="submit">
-            finalizar pedido
-          </button>
-        </div>
-      </form>
-    </main>
-  </body>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>

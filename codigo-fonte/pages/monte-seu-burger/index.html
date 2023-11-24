@@ -17,7 +17,7 @@
       <nav>
         <ul>
           <li><a href="../home/index.html">HOME</a></li>
-          <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO/a></li>          
+          <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO </a></li>          
           <li><a href="../contato/index.html">CONTATO</a></li>
         </ul>
       </nav>
@@ -304,8 +304,8 @@
         />
         Pimenta Verde com Chimichurri </label
       ><br />
-      <input type="submit" value="Fazer Pedido" />
-    </form>
+    </form>    
+    <input type="submit" value="Montar o Hamburguer" />
     <div id="resumoBurger" class="card" style="display: none">
       <div class="card-body">
         <h5 class="card-title">Resumo do Hamburger</h5>
@@ -317,6 +317,29 @@
         <button id="copiarResumo" class="btn btn-primary">Copiar Resumo</button>
       </div>
     </div>
+    <div class="form">
+      <h1 class="title">ENDEREÇO PARA ENTREGA</h1>
+      <form>
+          <div class="double-input-row">
+              <input class="input-text" type="text" placeholder="Nome" name="nome" required />
+              <input class="input-text" type="text" placeholder="Sobrenome" name="sobrenome" required />
+          </div>
+          <div class="triple-input-row">
+              <input id="endereço-input" class="input-text" type="text" placeholder="Endereço" name="endereco" required />
+              <input id="numero-input" class="input-text" type="text" placeholder="Número" name="numero" required />
+              <input id="apto-input" class="input-text" type="text" placeholder="Apto" name="apto" required />
+          </div>
+          <div class="double-input-row">
+              <input class="input-text" type="text" placeholder="Bairro" name="bairro" required />
+              <input class="input-text" type="text" placeholder="Ponto de referência" name="referencia" required />
+          </div>
+          <input class='finalizarBtn' type="submit" value="Enviar Pedido" />
+      </form>
+  </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

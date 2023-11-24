@@ -3,14 +3,13 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <title>Escolha o seu Hamburguer</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../monte-seu-burger/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Escolha o seu Hamburguer</title>
 </head>
 
 <body>
@@ -19,82 +18,83 @@
     <nav>
       <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO</a></li>      
+        <li><a href="../monte-seu-burger/index.html">FAÇA SEU PEDIDO</a></li>
         <li><a href="../contato/index.html">CONTATO</a></li>
       </ul>
     </nav>
-  </header>
-
-    <div class="container">
-        <div class="content">
-            <div class="text">
-                <h1>Rua A, 123</h1>
-                <h1>Aberto de 11:00 às 23:00</h1>
-                <h1>(31) 99999-9999</h1>
-            </div>
-            <button class="red-button">FAÇA SEU PEDIDO</button>
-        </div>
+  </header>  
+    <div class="contatoCard">
+      <h1>Flink's Burger</h1>
+      <p>Contato: (11) 1234-5678</p>
+      <p>Horário de Funcionamento:</p>
+      <p>Seg-Sex: 10:00 - 22:00</p>
+      <p>Sáb-Dom: 11:00 - 20:00</p>
+      <a href="../monte-seu-burger/index.html"><button>Faça seu pedido</button></a>
     </div>
-
-    <h1>Cardápio</h1>
-
-    <h1>Hamburguers</h1>
-    <section>
-        <div class="card">
-            <img src="./imagem/images.jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+    <div class="container mt-4">
+      <h2 class="text-center mb-4">Cardápio de Hambúrgueres</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./imagem/images (2).jpeg" class="card-img-top" alt="Hambúrguer 1">
+            <div class="card-body">
+              <h5 class="card-title">Hambúrguer Clássico</h5>
+              <p class="card-text">Pão, carne, queijo, alface, tomate, maionese.</p>
+            </div>
+          </div>
         </div>
-        <div class="card">
-            <img src="./imagem/images (1).jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./imagem/images (3).jpeg" class="card-img-top" alt="Hambúrguer 2">
+            <div class="card-body">
+              <h5 class="card-title">Hambúrguer Vegano</h5>
+              <p class="card-text">Pão integral, hambúrguer de quinoa, alface, tomate, molho especial.</p>
+            </div>
+          </div>
         </div>
-        <div class="card">
-            <img src="./imagem/images (2).jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="./imagem/images (1).jpeg" class="card-img-top" alt="Hambúrguer 3">
+            <div class="card-body">
+              <h5 class="card-title">Hambúrguer Picante</h5>
+              <p class="card-text">Pão, carne picante, queijo, jalapeños, molho de pimenta.</p>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <h1>Hamburguers Naturais</h1>
-    <section>
-        <div class="card">
-            <img src="./imagem/images (3).jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+      </div>
+    <div class="container mt-4 ">
+      <h2 class="text-center mb-4">Bebidas</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="bebidasCard">
+            <img src="./imagem/agua.jpeg" class="card-img-top" alt="Hambúrguer 1">
+            <div class="card-body">
+              <h5 class="card-title">Água</h5>              
+            </div>
+          </div>
         </div>
-        <div class="card">
-            <img src="./imagem/images (4).jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+        <div class="col-md-4 mb-4">
+          <div class="bebidasCard">
+            <img src="./imagem/coca.jpeg" class="card-img-top" alt="Hambúrguer 2">
+            <div class="card-body">
+              <h5 class="card-title">Refrigerante</h5>              
+            </div>
+          </div>
         </div>
-        <div class="card">
-            <img src="./imagem/images (5).jpeg" alt="">
-            <p>XBurguer</p>
-            <p>R$ 20,00</p>
+        <div class="col-md-4 mb-4">
+          <div class="bebidasCard">
+            <img src="./imagem/Suco-de-Laranja-1.jpg" class="card-img-top" alt="Hambúrguer 3">
+            <div class="card-body">
+              <h5 class="card-title">Sucos</h5>                      
+            </div>
+          </div>
         </div>
-    </section>
-
-    <h1>Bebidas</h1>
-    <section>
-        <div class="card">
-            <img src="./imagem/agua.jpeg" alt="">
-            <p>Água</p>
-            <p>R$ 20,00</p>
-        </div>
-        <div class="card">
-            <img src="./imagem/coca.jpeg" alt="">
-            <p>Refrigerante</p>
-            <p>R$ 20,00</p>
-        </div>
-        <div class="gurana">
-            <img src="./imagem/gurana.jpeg" alt="">
-            <p>Refrigerante</p>
-            <p>R$ 20,00</p>
-        </div>
-    </section>
-
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
