@@ -140,4 +140,37 @@ RF-05 > O sistema deve ter um menu para pedidos de bebidas.
   <td>Caio Lelis e Douglas Rodrigues</td>
  </tr>
 </table>
+<tr>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-5: Verificar a tela de contato</td>
+  <td>
+   <ul>
+    <li>RF-08 > Ao finalizar o pedido, o sistema deve solicitar que o cliente coloque o nome de quem está fazendo o pedido e coloque o endereço de entrega.</li>
+   </ul>
+  </td>
+  <td>Verificar se constam as informações sobre a hamburgueria.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em contato.</li>
+    <li>Visualizar as informações sobre a hamburgueria.</li>
+   </ol>
+   </td>
+  <td>Ao acessar a tela de contato, é necessário que seja possível visualizar informações cruciais, como telefone, endereço, horário de funcionamento e demais detalhes relevantes sobre a hamburgueria.</td>
+  <td>Guilherme Patrick</td>
+ </tr>
+</table>
+<tr>
 
