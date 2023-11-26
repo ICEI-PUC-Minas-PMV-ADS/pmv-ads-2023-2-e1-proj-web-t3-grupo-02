@@ -40,9 +40,10 @@ Responsável: Guilherme Patrick.
 
  .
 
- <li> CT-04: Verificar o cadastro de usuários
+ <li> CT-04: Verificar a tela de Contato
    
-![Captura de tela 2023-11-23 210341](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/d98b7ce7-9f32-44b4-8edf-ab3709754bb5)
+![Captura de tela 2023-11-26 141604](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/482c7d7f-dafb-4e32-9695-3f6559994c37)
+
 
 
 
