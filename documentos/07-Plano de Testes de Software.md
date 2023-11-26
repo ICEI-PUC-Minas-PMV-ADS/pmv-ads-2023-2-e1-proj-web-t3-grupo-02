@@ -131,9 +131,9 @@ RF-05 > O sistema deve ter um menu para pedidos de bebidas.
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar contato</li>
-    <li>Preencher os campos</li>
-    <li>Finalizar pedido </li>
+    <li>Clicar em faça seu pedido</li>
+    <li>Ir em Endereço para entrega</li>
+    <li>Enviar pedido</li>
    </ol>
    </td>
   <td>Deve ser possível preencher todos os campos e finalizar pedido, caso não tenha preenchido retornar para preencher o campo.</td>
