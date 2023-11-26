@@ -40,7 +40,7 @@ Responsável: Guilherme Patrick.
 
  .
 
- <li> CT-04: Verificar a tela de Contato
+ <li> CT-04: Verificar o preenchimento para entrega
    
 ![Captura de tela 2023-11-26 141604](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/482c7d7f-dafb-4e32-9695-3f6559994c37)
 
@@ -48,6 +48,20 @@ Responsável: Guilherme Patrick.
 
 
 A tela de contato está permitindo preencher os campos e retornando uma mensagem caso não preencha o mesmo.
+
+
+Responsável: Caio Lelis e Douglas Rodrigues
+
+ </li>
+
+  <li> CT-05: Verificar a tela de contato
+   
+![Captura de tela 2023-11-26 143718](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/assets/145210886/65046431-b056-4c36-939b-fa6103967b93)
+
+
+
+A tela de contato está exibindo corretamente as informações referentes à hamburgueria.
+
 
 
 Responsável: Guilherme Patrick.
