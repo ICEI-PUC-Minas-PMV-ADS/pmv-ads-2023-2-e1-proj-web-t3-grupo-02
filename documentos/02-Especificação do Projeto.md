@@ -73,6 +73,8 @@
 | RF-05 |O sistema deve ter um menu para pedidos de bebidas.|MÉDIA|
 | RF-06 |Ao finalizar o pedido, o sistema deve solicitar que o cliente coloque o nome de quem está fazendo o pedido e coloque o endereço de entrega.|ALTA|
 | RF-07 |O sistema deve ter o link no qual irá enviar o pedido diretamente para o WhatsApp da loja. |ALTA|
+| RF-08 |Ao acessar a tela de contato, é fundamental que as informações relativas à hamburgueria estejam claramente disponíveis. |ALTA|
+
 
 Prioridade: Alta / Média / Baixa. 
 
