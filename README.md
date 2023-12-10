@@ -37,7 +37,7 @@ O projeto em desenvolvimento é um cardápio digital para uma hamburgueria, cria
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t3-grupo-02/
 
 # Código-Fonte
 
